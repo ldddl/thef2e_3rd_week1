@@ -1,0 +1,100 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<header class="header-bg">
+  <div class="container">
+    <img class="header-logo" src="./assets/images/logo_1.png" alt="logo">
+    <div class="header-items">
+      <h1 class="header-h1 text-white text-center mb-4">和你一起探索台灣</h1>
+    <div class="header-filter d-flex flex-wrap justify-content-center">
+      <div class="header-choose btn-group bg-white rounded-2 mb-1 mb-md-0" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group header-choose-frame" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn text-start" data-bs-toggle="dropdown" aria-expanded="false">
+            <p class="header-choose-category m-0 p-0">地點</p>
+            <p class="header-choose-area m-0 p-0">全台灣</p>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+          </ul>
+        </div>
+        <div class="btn-group header-choose-frame" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn border-start text-start" data-bs-toggle="dropdown" aria-expanded="false">
+            <p class="header-choose-category m-0 p-0">分類</p>
+                  <p class="header-choose-area m-0 p-0">景點</p>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-choose">
+        <form class="d-flex">
+          <input class="header-choose-form-search form-control rounded-start rounded-0" type="search" placeholder="試試輸入關鍵字" aria-label="Search">
+          <button class="btn btn-outline-success bg-secondary rounded-end" type="submit"><img src="./assets/images/icon_search.png" alt="search"></button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+</header>
+<!-- 預留 -->
+<!-- <div class="header-filter text-center">
+        <div class="header-choose btn-group bg-white rounded-2" role="group" aria-label="Basic example">
+          <button type="button header-choose-frame" class="btn text-start">
+            <p class="header-choose-category m-0 ms-4">地點</p>
+            <p class="header-choose-area m-0 ms-4">全台灣</p>
+          </button>
+          <button type="button header-choose-frame" class="btn text-start border-start">
+            <p class="header-choose-category m-0 ms-4">分類</p>
+            <p class="header-choose-area m-0 ms-4">景點</p>
+          </button>
+        </div>
+        <div class="header-search">
+        </div>
+      </div> -->
+
+<div class="index-content">  
+  <div class="container">
+    <div class="content-group">
+      <div class="content-group-header">
+        <h2 class="content-group-header-title"></h2>
+        <div class="select-button"></div>
+      </div>
+      <div class="content-group-content">
+        <div class="text-card-scroller">
+          <div class="container text-card" aria-label="Secondary navigation">
+            <ul class="d-flex list-unstyled">
+              <li>
+                <div class="card" style="width: 18rem;">
+                  <!-- <img src="https://fakeimg.pl/201x123/" class="card-img-top" alt="..."> -->
+                  <img src="./assets/images/unsplash_IB5bld_weak1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="date d-flex align-items-center">
+                      <img class="icon" src="./assets/images/icon_date.png" alt="" class="date-icon">
+                      <p class="date-text m-0">2021/02/10 ~ 2021/02/28</p>
+                    </div>
+                    <h5 class="card-title">2021金崙溫泉季聖誕點...</h5>
+                    <div class="location d-flex align-items-center">
+                      <img class="icon" src="./assets/images/icon_location.png" alt="" class="location-icon">
+                      <p class="card-text m-0">宜蘭縣</p>                      
+                    </div>
+                    <p class="tag m-0">年度活動</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content-group-footer">        
+      </div>
+    </div>
+  </div>
+</div>    
+

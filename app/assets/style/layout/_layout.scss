@@ -1,0 +1,13 @@
+.footer {
+    height: 48px;
+    background-color: #23BFD4;
+    @include pad {
+        height: 80px;
+    }
+    &-text{
+        font-size: $h8-font-size;
+        @include pad{
+            font-size: $h6-font-size;
+        }
+    }
+}
